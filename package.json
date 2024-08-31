@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:frontapp": "npm start --prefix frontapp",
+    "start:authService": "npm run start --prefix authService"
+  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
